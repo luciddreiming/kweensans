@@ -10,19 +10,25 @@
     <div class="container">
         <header>
             <h1>Kween Sans Generator</h1>
-            <p>Type text below to transform it into the Kween Sans font</p>
+            <p>Type UPPERCASE text below to transform it into the Kween Sans font</p>
         </header>
         
         <div class="content">
+            <!-- Caps Lock Warning -->
+            <div id="caps-warning" class="caps-warning hidden">
+                <div class="warning-icon">⚠️</div>
+                <div class="warning-text">
+                    <strong>Caps Lock Required:</strong> Please turn on Caps Lock for uppercase text input
+                </div>
+            </div>
+            
             <div class="input-section">
-                <textarea id="text-input" placeholder="Type your text here...">Hello World</textarea>
+                <textarea id="text-input" placeholder="TYPE UPPERCASE TEXT HERE... USE COMMAS TO CREATE NEW LINES" maxlength="100">HELLO WORLD, WELCOME TO KWEEN SANS, ENJOY CREATING BEAUTIFUL TEXT</textarea>
+                <div class="char-counter">
+                    <span id="char-count">0</span>/100 characters
+                </div>
                 <div class="controls">
                     <button id="generate-btn" class="btn-primary">Generate Kween Sans</button>
-                    <div class="size-control">
-                        <label for="font-size">Font Size:</label>
-                        <input type="range" id="font-size" min="20" max="100" value="50">
-                        <span id="size-value">50px</span>
-                    </div>
                 </div>
             </div>
             
@@ -49,18 +55,25 @@
                     <div id="output-container"></div>
                 </div>
                 <div class="download-controls">
-                    <button id="download-btn" class="btn-primary">Download as Image</button>
-                    <button id="save-btn" class="btn-secondary">Save Text</button>
+                    <button id="download-btn" class="btn-primary">Take a screenshot to save the image</button>
+                    <div class="size-control">
+                        <label for="font-size">Font Size:</label>
+                        <input type="range" id="font-size" min="20" max="100" value="50">
+                        <span id="size-value">50px</span>
+                    </div>
                 </div>
             </div>
             
             <div class="instructions">
                 <h3>How to use:</h3>
                 <div class="instruction-steps">
-                    <div class="step">1. Type your text</div>
-                    <div class="step">2. Click "Generate Kween Sans"</div>
-                    <div class="step">3. Adjust size & background</div>
+                    <div class="step">1. Turn on CAPS LOCK</div>
+                    <div class="step">2. Type UPPERCASE text</div>
+                    <div class="step">3. Use commas for new lines</div>
                     <div class="step">4. Download your creation</div>
+                </div>
+                <div class="uppercase-note">
+                    <strong>Auto Features:</strong> Text automatically wraps to new lines when needed. Spaces are automatically added between words.
                 </div>
             </div>
         </div>
