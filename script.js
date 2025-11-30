@@ -14,29 +14,17 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Character to image mapping
     const charToImageMap = {
-        'A': 'A.png', 'B': 'B.png', 'C': 'C.png', 'D': 'D.png', 'E': 'E.png',
+        'A' 'a': 'A.png', 'B': 'B.png', 'C': 'C.png', 'D': 'D.png', 'E': 'E.png',
         'F': 'F.png', 'G': 'G.png', 'H': 'H.png', 'I': 'I.png', 'J': 'J.png',
         'K': 'K.png', 'L': 'L.png', 'M': 'M.png', 'N': 'N.png', 'O': 'O.png',
         'P': 'P.png', 'Q': 'Q.png', 'R': 'R.png', 'S': 'S.png', 'T': 'T.png',
         'U': 'U.png', 'V': 'V.png', 'W': 'W.png', 'X': 'X.png', 'Y': 'Y.png',
-        'Z': 'Z.png', 'a': 'a.png', 'b': 'b.png', 'c': 'c.png', 'd': 'd.png',
-        'e': 'e.png', 'f': 'f.png', 'g': 'g.png', 'h': 'h.png', 'i': 'i.png',
-        'j': 'j.png', 'k': 'k.png', 'l': 'l.png', 'm': 'm.png', 'n': 'n.png',
-        'o': 'o.png', 'p': 'p.png', 'q': 'q.png', 'r': 'r.png', 's': 's.png',
-        't': 't.png', 'u': 'u.png', 'v': 'v.png', 'w': 'w.png', 'x': 'x.png',
-        'y': 'y.png', 'z': 'z.png', '0': '0.png', '1': '1.png', '2': '2.png',
-        '3': '3.png', '4': '4.png', '5': '5.png', '6': '6.png', '7': '7.png',
-        '8': '8.png', '9': '9.png', ' ': 'space.png', '.': 'period.png',
-        ',': 'comma.png', '!': 'exclamation.png', '?': 'question.png',
-        "'": 'apostrophe.png', '"': 'quotation.png', ':': 'colon.png',
-        ';': 'semicolon.png', '-': 'hyphen.png', '_': 'underscore.png',
-        '(': 'paren_open.png', ')': 'paren_close.png', '[': 'bracket_open.png',
-        ']': 'bracket_close.png', '{': 'brace_open.png', '}': 'brace_close.png',
-        '@': 'at.png', '#': 'hash.png', '$': 'dollar.png', '%': 'percent.png',
-        '&': 'ampersand.png', '*': 'asterisk.png', '+': 'plus.png',
-        '=': 'equals.png', '/': 'slash.png', '\\': 'backslash.png',
-        '|': 'pipe.png', '<': 'less.png', '>': 'greater.png', '~': 'tilde.png',
-        '`': 'backtick.png', '^': 'caret.png'
+        'Z': 'Z.png', 'a': 'A.png', 'b': 'B.png', 'c': 'C.png', 'd': 'D.png',
+        'e': 'E.png', 'f': 'F.png', 'g': 'G.png', 'h': 'H.png', 'i': 'I.png',
+        'j': 'J.png', 'k': 'K.png', 'l': 'L.png', 'm': 'M.png', 'n': 'N.png',
+        'o': 'O.png', 'p': 'P.png', 'q': 'Q.png', 'r': 'R.png', 's': 'S.png',
+        't': 'T.png', 'u': 'U.png', 'v': 'V.png', 'w': 'W.png', 'x': 'X.png',
+        'y': 'Y.png', 'z': 'Z.png'
     };
 
     // Initialize the app
@@ -313,3 +301,4 @@ document.addEventListener('DOMContentLoaded', function() {
     // Initialize the application
     init();
 });
+
