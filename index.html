@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kween Sans Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Kween Sans Generator</h1>
+            <p>Type text below to transform it into the Kween Sans font</p>
+        </header>
+        
+        <div class="content">
+            <div class="input-section">
+                <textarea id="text-input" placeholder="Type your text here...">Hello World</textarea>
+                <div class="controls">
+                    <button id="generate-btn">Generate Kween Sans</button>
+                    <div class="size-control">
+                        <label for="font-size">Font Size:</label>
+                        <input type="range" id="font-size" min="20" max="100" value="60">
+                        <span id="size-value">60px</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="background-control">
+                <h3>Background Options</h3>
+                <div class="bg-controls">
+                    <div class="bg-color">
+                        <label for="bg-color">Background Color:</label>
+                        <input type="color" id="bg-color" value="#ffffff">
+                    </div>
+                    <div class="bg-upload">
+                        <label for="bg-upload">Upload Background:</label>
+                        <input type="file" id="bg-upload" accept="image/*">
+                    </div>
+                    <button id="clear-bg">Clear Background</button>
+                </div>
+            </div>
+            
+            <div class="output-section">
+                <h2>Your Kween Sans Text:</h2>
+                <div id="output-wrapper">
+                    <div id="output-container"></div>
+                </div>
+                <div class="download-controls">
+                    <button id="download-btn">Download as Image</button>
+                    <button id="save-btn">Save Text</button>
+                </div>
+            </div>
+            
+            <div class="instructions">
+                <h3>How to use:</h3>
+                <p>1. Type your text in the input box above</p>
+                <p>2. Click "Generate Kween Sans"</p>
+                <p>3. Adjust font size and background as needed</p>
+                <p>4. Download or save your creation</p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
